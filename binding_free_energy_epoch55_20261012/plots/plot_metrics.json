@@ -1,0 +1,67 @@
+{
+  "metrics": {
+    "pKd": {
+      "n": 4964,
+      "mae": 0.3229716033535941,
+      "mse": 0.27485335307634146,
+      "rmse": 0.5242645830840964,
+      "r2": 0.5557174062731289,
+      "pearson": 0.7487334289988559,
+      "spearman": 0.5990263547019262,
+      "ci": 0.854156084199248,
+      "mean_signed_error": -0.015374751748047338,
+      "abs_error_le_0.5_count": 3988,
+      "abs_error_le_0.5_fraction": 0.8033843674456084,
+      "abs_error_le_1.0_count": 4600,
+      "abs_error_le_1.0_fraction": 0.9266720386784851
+    },
+    "delta_G_equiv_kcal_mol": {
+      "n": 4964,
+      "mae": 0.4406130451700196,
+      "mse": 0.5115487911154467,
+      "rmse": 0.7152263915121189,
+      "r2": 0.5557174062731289,
+      "pearson": 0.7487334289988548,
+      "spearman": 0.5990263547019262,
+      "ci": 0.854156084199248,
+      "mean_signed_error": 0.020974959148416558,
+      "abs_error_le_0.5_count": 3623,
+      "abs_error_le_0.5_fraction": 0.7298549556809025,
+      "abs_error_le_1.0_count": 4356,
+      "abs_error_le_1.0_fraction": 0.8775181305398871
+    }
+  },
+  "plot_config": {
+    "temperature_K": 298.15,
+    "standard_concentration_mol_L": 1.0,
+    "R_kcal_mol_K": 0.00198720425864083,
+    "a_kcal_mol": 1.3642470130342383,
+    "hexbin_bins": "log",
+    "zoom_rule": "joint 1%-99% quantiles",
+    "all_samples_in_main_plot": true,
+    "full_limits": [
+      -14.604733783484226,
+      -5.708493578013951
+    ],
+    "main_view_quantiles": [
+      0.005,
+      0.995
+    ],
+    "main_view_limits": [
+      -12.19803622717816,
+      -6.124976309363605
+    ],
+    "main_view_outside_count": 30,
+    "zoom_quantiles": [
+      -11.20167856252728,
+      -6.46449305687412
+    ],
+    "zoom_inside_count": 4782,
+    "zoom_outside_count": 182,
+    "pkd5_experimental_stack_kcal_mol": -6.821235065171192,
+    "pkd5_experimental_stack_count": 3679,
+    "hexbin_count_sum_checked": true,
+    "display": "hexbin",
+    "color_scale": "log"
+  }
+}
